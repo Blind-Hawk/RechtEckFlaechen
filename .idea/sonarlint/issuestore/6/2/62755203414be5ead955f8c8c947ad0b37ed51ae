@@ -1,0 +1,21 @@
+
+Z
+java:S1854"?Remove this useless assignment to local variable "surfaceArea".(¬ÿáøÿÿÿÿ
+T
+java:S1854"9Remove this useless assignment to local variable "sideB".(™ù¥òúÿÿÿÿ
+T
+java:S1854
+"9Remove this useless assignment to local variable "sideA".(éŒ×üÿÿÿÿ
+R
+java:S1854	"=Remove this useless assignment to local variable "userInput".( ¿Š]
+C
+java:S1481	".Remove this unused "userInput" local variable.( ¿Š]
+E
+java:S1481
+"*Remove this unused "sideA" local variable.(éŒ×üÿÿÿÿ
+E
+java:S1481"*Remove this unused "sideB" local variable.(™ù¥òúÿÿÿÿ
+K
+java:S1481"0Remove this unused "surfaceArea" local variable.(¬ÿáøÿÿÿÿ
+H
+java:S1128"+Remove this unused import 'java.sql.Array'.(Õø‹ù8ıÑÏêĞ0
