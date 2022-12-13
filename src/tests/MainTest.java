@@ -1,9 +1,9 @@
-/*package tests;
+package tests;
 
 import org.junit.jupiter.api.Test;
 
 class MainTest {
-
+    /*
     @Test
     void main() {
 
@@ -13,7 +13,7 @@ class MainTest {
     void getSideSizes() {
 
     }
-
+*/
     @Test
     void customSidesPossible(double v, double v1, double v2) {
         this.customSidesPossible(8.0, 2.0, 4.0);
@@ -26,4 +26,3 @@ class MainTest {
         assert false;
     }
 }
-*/

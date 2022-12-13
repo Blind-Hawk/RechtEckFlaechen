@@ -17,5 +17,12 @@ E
 java:S1481"*Remove this unused "sideB" local variable.(™ù¥òúÿÿÿÿ
 K
 java:S1481"0Remove this unused "surfaceArea" local variable.(¬ÿáøÿÿÿÿ
-H
-java:S1128"+Remove this unused import 'java.sql.Array'.(Õø‹ù8ıÑÏêĞ0
+N	java:S106"9Replace this use of System.out or System.err by a logger.(ˆÆ›á
+M	java:S106"9Replace this use of System.out or System.err by a logger.(£ëû
+S	java:S106"9Replace this use of System.out or System.err by a logger.(ŞËÈøÿÿÿÿ
+B
+java:S1125"'Remove the unnecessary boolean literal.(ëó³µûÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(Õ¢Ü£ùÿÿÿÿ
+U	java:S106"9Replace this use of System.out or System.err by a logger.(ìÒÖı8á·‰ïĞ0
+A
+java:S1128"+Remove this unused import 'java.sql.Array'.(Õø‹ù
