@@ -1,3 +1,5 @@
+package program;
+
 import java.sql.Array;
 import java.util.Scanner;
 
@@ -8,6 +10,8 @@ public class Main {
         double sideA = 0.0;
         double sideB = 0.0;
         double surfaceArea = 0.0;
+
+
 
     }
 
