@@ -13,44 +13,34 @@ public class Main {
 
         System.out.println(customSidesPossible(8.0, 2.0, 4.0) + "\n");
         System.out.println(customSidesPossible(8.0, 2.0, 3.0) + "\n");
-        System.out.println(getSideSizes(8.0, 2.0, 4.0));
-
-        if (customSidesPossible(100, 0, 0) == true) {
-            System.out.println(getSideSizes(100, 15, 10));
-        }
-        System.out.println("Doesn't calculate");
+        getSideSizes(8.0, 1, 2);
 
     }
 
-    public static String getSideSizes(double surfaceArea, double customSideA,
-                                      double customSideB) {
+    public static void getSideSizes(double surfaceArea, int sideA, int sideB) {
 
         double calculateA = 0;
         double calculateB = 0;
         calculateA = calculateB = Math.sqrt(surfaceArea);
+        int counter = 0;
 
-        if (customSideA < customSideB) {
-            while (calculateA >= customSideA)
-                calculateA -= 0.01;
-
-            while (calculateB <= customSideB) {
-                calculateB += 0.01;
+        if (sideA < sideB) {
+            while (calculateA >= 0.0) {
+                counter++;
+                System.out.println("Mögliches " + counter + ". Rechteck" + "\n" + "Side A: " + calculateA + "\nSide B: " + calculateB + "\n");
+                calculateA -= 1.0;
+                calculateB += 1.0;
             }
-            return "Side A: " + Math.round(calculateA) + "\nSide B: " + Math.round(calculateB);
+
         } else {
 
-            while (calculateA <= customSideA) {
-
-                calculateA += 0.01;
+            while (calculateB >= 0.0) {
+                counter++;
+                System.out.println("Mögliches " + counter + ". Rechteck" + "\n" + "Side A: " + calculateA + "\nSide B: " + calculateB + "\n");
+                calculateA += 1.0;
+                calculateB -= 1.0;
             }
-
-            while (calculateB >= customSideB) {
-                calculateB -= 0.01;
-            }
-            return "Side A: " + Math.round(calculateA) + "\nSide B: " + Math.round(calculateB);
         }
-
-
     }
 
     public static boolean customSidesPossible(double surfaceArea, double customSideA, double customSideB) {

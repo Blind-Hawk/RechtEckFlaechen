@@ -1,28 +1,0 @@
-
-Z
-java:S1854"?Remove this useless assignment to local variable "surfaceArea".(¬ÿáøÿÿÿÿ
-T
-java:S1854"9Remove this useless assignment to local variable "sideB".(™ù¥òúÿÿÿÿ
-T
-java:S1854
-"9Remove this useless assignment to local variable "sideA".(éŒ×üÿÿÿÿ
-R
-java:S1854	"=Remove this useless assignment to local variable "userInput".( ¿Š]
-C
-java:S1481	".Remove this unused "userInput" local variable.( ¿Š]
-E
-java:S1481
-"*Remove this unused "sideA" local variable.(éŒ×üÿÿÿÿ
-E
-java:S1481"*Remove this unused "sideB" local variable.(™ù¥òúÿÿÿÿ
-K
-java:S1481"0Remove this unused "surfaceArea" local variable.(¬ÿáøÿÿÿÿ
-N	java:S106"9Replace this use of System.out or System.err by a logger.(ˆÆ›á
-M	java:S106"9Replace this use of System.out or System.err by a logger.(£ëû
-S	java:S106"9Replace this use of System.out or System.err by a logger.(ŞËÈøÿÿÿÿ
-B
-java:S1125"'Remove the unnecessary boolean literal.(ëó³µûÿÿÿÿ
-S	java:S106"9Replace this use of System.out or System.err by a logger.(Õ¢Ü£ùÿÿÿÿ
-U	java:S106"9Replace this use of System.out or System.err by a logger.(ìÒÖı8á·‰ïĞ0
-A
-java:S1128"+Remove this unused import 'java.sql.Array'.(Õø‹ù
