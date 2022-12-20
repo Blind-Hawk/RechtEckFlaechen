@@ -17,14 +17,14 @@ public class Main {
 
     }
 
-    public static void getSideSizes(double surfaceArea, int sideA, int sideB) {
+    public static void getSideSizes(double surfaceArea, int shorterSide, int longerSide) {
 
         double calculateA = 0;
         double calculateB = 0;
         calculateA = calculateB = Math.sqrt(surfaceArea);
         int counter = 0;
 
-        if (sideA < sideB) {
+        if (shorterSide < longerSide) {
             while (calculateA >= 0.0) {
                 counter++;
                 System.out.println("Mögliches " + counter + ". Rechteck" + "\n" + "Side A: " + calculateA + "\nSide B: " + calculateB + "\n");
@@ -39,6 +39,32 @@ public class Main {
                 System.out.println("Mögliches " + counter + ". Rechteck" + "\n" + "Side A: " + calculateA + "\nSide B: " + calculateB + "\n");
                 calculateA += 1.0;
                 calculateB -= 1.0;
+            }
+        }
+    }
+
+    public static void getSideSizesInCustomThresholdAndSteps(double surfaceArea, boolean shorterSide, double thresholdRange, double steps) {
+
+        double calculateA = 0.0;
+        double calculateB = 0.0;
+        calculateA = calculateB = Math.sqrt(surfaceArea);
+        int counter = 0;
+
+        if (shorterSide < longerSide) {
+            while (calculateA >= 0.0) {
+                counter++;
+                System.out.println("Mögliches " + counter + ". Rechteck" + "\n" + "Side A: " + calculateA + "\nSide B: " + calculateB + "\n");
+                calculateA -= steps;
+                calculateB += steps;
+            }
+
+        } else {
+
+            while (calculateB >= 0.0) {
+                counter++;
+                System.out.println("Mögliches " + counter + ". Rechteck" + "\n" + "Side A: " + calculateA + "\nSide B: " + calculateB + "\n");
+                calculateA += steps;
+                calculateB -= steps;
             }
         }
     }
